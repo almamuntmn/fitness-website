@@ -76,11 +76,13 @@ nav {
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 .hero-info {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-bottom: 76px;
 }
 
 #hero-image img {
