@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.interf {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Miama';
+    src: url('../fonts/Miama.otf') format('opentype');
+}
+/* shared style */
+.red {
+    color: #E6533c;
+}
+
+body {
+    background-color: black;
+}
+
+/* header style */
+header {
+    position: relative;
+    width: 100%;
+    height: 674px;
+    background: linear-gradient(to bottom, #111111, #222222);
+}
+
+nav {
+    max-width: 1060px;
+    margin: 0 auto;
+    color: white;
+}
+
+.nav-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 2.25rem;
+    font-weight: 800;
+    font-style: italic;
+}
+
+.menu-text {
+    list-style: none;
+    display: flex;
+    gap: 60px;
+    font-size: 1rem;
+    font-weight: 300;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 39px;
+    padding: 12px 24px;
+}
+
+.menu-text li {
+    padding: 8px 20px;
+    border-radius: 46px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.menu-text li:hover {
+    background-color: #E6533c;
+    border-radius: 46px;
+    margin: 0px 0px;
+}
+
+/* .............hero section style...........*/
+.hero{
+    max-width: 1060px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.hero-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#hero-image img {
+width: 100%;
+}
+
+.hero-text {
+    color: white;
+    max-width: 520px;
+}
+.hero-head{
+    font-size: 4.87rem;
+    font-weight: 800;
+    margin-bottom: 28px;
+}
+#shape{
+font-family: "Miama";
+}
+.hero-buttons {
+    display: flex;
+    gap: 14px;
+}
+
+.card-1{
+    height: 96px;
+    width: 206px;
+    border-radius: 12px;
+    background-color: rgba(48, 48, 48, 0.54);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 23px;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(10px);
+    display: flex;
+    position: absolute;
+    left: 52%;      /* adjust as needed */
+    bottom: 5%;
+    z-index: 2;
+
+}
+.circle{
+    width: 40px;
+    height: 40px;
+    background-color: #E6533c;
+    border-radius: 50%;
+    
+}
+.card-1description{
+font-size: 1rem;
+font-weight: 300;
+color: rgba(239, 237, 232, 0.65);
+margin: 0;
+}
+
+.card-1title{
+    font-size: 2rem;
+    font-weight: 800;
+    color: white;
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+.card-2{
+    height: 96px;
+    width: 206px;
+    border-radius: 12px;
+    background-color: rgba(48, 48, 48, 0.54);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 23px;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(10px);
+    display: flex;
+    position: absolute;
+    left: 72%;      /* adjust as needed */
+    bottom: 40%;
+    z-index: 2;
+}
+.card-2title{
+    font-size: 2rem;
+    color: white;
+    font-weight: 800;
+    margin-bottom: 5px;
+    margin-top: 0;
+}
+.btn-1 {
+    padding: 16px 46px;
+    background-color: #E6533c;
+    color: white;
+    font-size: 1.1rem;
+    font-weight: 500;
+    border-radius: 42px;
+}
+
+.btn-2 {
+    padding: 16px 46px;
+    border: 1px solid white;
+    background-color: black;
+    color: white;
+    font-size: 1.1rem;
+    font-weight: 500;
+    border-radius: 42px;
+}
+
+/* ........habit cards style.......... */
+.habits-head{
+    font-size: 3rem;
+    font-weight: 800;
+    color: white;
+    text-align: center;
+    margin-bottom: 14px;
+}
+.habits-description{
+    font-size: .8rem;
+    font-weight: 300;
+    color: white;
+    text-align: center;
+}
+.habits-cards{
+    width: 1060px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 58px;
+    gap: 40px;
+}
+.habit-card{
+    display: flex;
+    flex-direction: column;
+}
+
+.card-image{
+    border-radius: 50%;
+    width: 180px;
+    height: 180px;
+    margin: 0 auto;
+}
+.hcard-title{
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: white;
+    text-align: center;
+    margin-bottom: 6px;
+
+}
+.hdescripton{
+    font-size: .8rem;
+    font-weight: 300;
+    text-align: center;
+    color: white;
+    opacity: 50%;
+    margin-top: 0;
+}
